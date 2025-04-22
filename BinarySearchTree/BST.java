@@ -18,6 +18,7 @@ public class BST {
 		}
 	}
 	
+	
 	public  boolean insert(int value) {
 		Node newNode = new Node(value);
 		if(root == null) {
@@ -120,6 +121,7 @@ public class BST {
 		InOrderTraversal(node.right);
 		
 	}
+
 	
 	public static void main(String[] args) {
 		
