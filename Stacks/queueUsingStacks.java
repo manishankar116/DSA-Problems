@@ -35,7 +35,7 @@ class queueUsingStacks{
 		if(isEmpty()){
 			return -1;
 		}
-		return main.peek();
+		return (int) main.peek();
 	}
 	
 	void push(int element) {

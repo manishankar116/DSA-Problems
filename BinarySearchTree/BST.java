@@ -141,9 +141,9 @@ public class BST {
 		binarySearchTree.BFS();
 		
 		//Depth first search
-		binarySearchTree.PreOrderTraversal(root);
-		binarySearchTree.PostOrderTraversal(root);
-		binarySearchTree.InOrderTraversal(root);
+		binarySearchTree.PreOrderTraversal(binarySearchTree.root);
+		binarySearchTree.PostOrderTraversal(binarySearchTree.root);
+		binarySearchTree.InOrderTraversal(binarySearchTree.root);
 		
 		
 	}

@@ -33,7 +33,7 @@ Return the element at index k-1 in the merged array (since array indices are zer
 
 */
 
-class Solution {
+class Kth_Element_in_the_Merged_Sorted_Arr {
     int getKthElement(int[] firstArr, int[] secondArr, int k) {
         int a = firstArr.length;
         int b = secondArr.length;

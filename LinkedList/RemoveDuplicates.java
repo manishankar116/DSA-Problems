@@ -1,5 +1,4 @@
 import java.util.HashSet;
-import java.util.Set;
 
 public class RemoveDuplicates {
         private Node head;
@@ -95,7 +94,7 @@ public class RemoveDuplicates {
 
     public static void main(String[] args) {
 
-        LinkedList myLinkedList = new LinkedList(1);
+        RemoveDuplicates myLinkedList = new RemoveDuplicates(1);
 
         myLinkedList.append(2);
         myLinkedList.append(3);
