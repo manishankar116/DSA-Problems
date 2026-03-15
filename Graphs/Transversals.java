@@ -102,7 +102,7 @@ public class Transversals {
 
         t.DFS(1);
         System.out.println();
-        t.BFS(1);
+        //t.BFS(1);
     }
 
 
