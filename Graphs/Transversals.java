@@ -92,7 +92,7 @@ public class Transversals {
         Transversals t = new Transversals();
 
         t.addVertex(1);
-        t.addVertex(2);
+        t.addVertex(2); 
         t.addVertex(3);
         t.addVertex(4);
 
